@@ -30,3 +30,8 @@ const untilNum = (num) => {
 
 }
 untilNum(5)
+
+const multiply = (a, b) => {
+    return a * b
+}
+console.log(multiply(2, 5))
