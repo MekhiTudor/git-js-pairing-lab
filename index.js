@@ -46,3 +46,18 @@ const add = (a, b) => {
 }
 console.log(add(3, 3))
 console.log(add(3, 5))
+
+const isNegative = (num) => {
+    if (num < 0) {
+        return true
+    }
+    else if (num > 0) {
+        return false
+    }
+    else {
+        return "This is 0."
+    }
+}
+console.log(isNegative(10))
+console.log(isNegative(-20))
+console.log(isNegative(0))
