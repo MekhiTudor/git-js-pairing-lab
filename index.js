@@ -35,3 +35,14 @@ const multiply = (a, b) => {
     return a * b
 }
 console.log(multiply(2, 5))
+
+const add = (a, b) => {
+    if (a === b) {
+        return a * 3
+    }
+    else {
+        return a + b
+    }
+}
+console.log(add(3, 3))
+console.log(add(3, 5))
