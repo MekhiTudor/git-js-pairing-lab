@@ -66,3 +66,16 @@ const triangleArea = (a, b) => {
     return ((a * b) / 2)
 }
 console.log(triangleArea(6, 8))
+
+const betweenTwentyandForty = (num) => {
+    if (num > 20 && num < 40) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+console.log(betweenTwentyandForty(20))
+console.log(betweenTwentyandForty(39))
+console.log(betweenTwentyandForty(40))
