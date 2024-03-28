@@ -93,3 +93,14 @@ console.log(largest(1, 2, 3))
 console.log(largest(10, 20, 5))
 console.log(largest(29, 74, 103))
 
+//BONUS QUESTIONS
+//one
+const printTime = (date) => {
+    const hours = date.getUTCHours().toString().padStart(2, '0');
+    const mins = date.getUTCMinutes().toString().padStart(2, '0');
+    const seconds = date.getUTCSeconds().toString().padStart(2, '0');
+    return hours + ":" + mins + ":" + seconds;
+}
+const date = new Date()
+const time = printTime(date)
+console.log(time)
