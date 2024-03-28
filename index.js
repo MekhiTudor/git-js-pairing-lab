@@ -123,3 +123,13 @@ const getExtention = (fileName) => {
 
 console.log(getExtention('hateme.txt'))
 console.log(getExtention('hateme.pdf'))
+
+const absoluteNineteen = (num) => {
+    if (num <= 19) {
+        return Math.abs(num - 19)
+    } else {
+        return (Math.abs(num - 19)) * 3
+    }
+}
+console.log(absoluteNineteen(20))
+console.log(absoluteNineteen(9))
