@@ -115,3 +115,11 @@ const isLeapYear = (year) => {
 console.log(isLeapYear(1900))
 console.log(isLeapYear(401))
 console.log(isLeapYear(2024))
+
+const getExtention = (fileName) => {
+    return fileName.slice(fileName.lastIndexOf('.'))
+
+}
+
+console.log(getExtention('hateme.txt'))
+console.log(getExtention('hateme.pdf'))
