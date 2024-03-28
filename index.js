@@ -117,7 +117,7 @@ console.log(isLeapYear(401))
 console.log(isLeapYear(2024))
 
 const getExtention = (fileName) => {
-    return fileName.slice(fileName.lastIndexOf('.') + 1)
+    return fileName.slice(fileName.lastIndexOf('.'))
 
 }
 
