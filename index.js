@@ -39,8 +39,7 @@ console.log(multiply(2, 5))
 const add = (a, b) => {
     if (a === b) {
         return a * 3
-    }
-    else {
+    } else {
         return a + b
     }
 }
@@ -50,11 +49,9 @@ console.log(add(3, 5))
 const isNegative = (num) => {
     if (num < 0) {
         return true
-    }
-    else if (num > 0) {
+    } else if (num > 0) {
         return false
-    }
-    else {
+    } else {
         return "This is 0."
     }
 }
